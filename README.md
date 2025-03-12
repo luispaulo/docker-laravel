@@ -27,14 +27,9 @@ Agora, o Laravel estará rodando em ` http://localhost:8000`  🚀
 
 ### 5. Implemente a função todasStringsMaisLongas em PHP:
 
-- Rota para testar todasStringsMaisLongas:
+- Rota para testar todasStringsMaisLongas utilizando POSTMAN ou Similar com CURL:
 ```bash
-curl -X GET http://localhost:8000/longest-strings
-```
-
-- Validando array:
-```bash
-Criar novo usuario:  curl -X POST http://localhost:8000/longest-strings \
+curl -X POST http://localhost:8000/api/longest-strings \
      -H "Content-Type: application/json" \
      -d '{ "inputArray": ["aba", "aa", "ad", "vcd", "aba"] }'
 ```

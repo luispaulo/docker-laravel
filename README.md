@@ -33,3 +33,10 @@ curl -X POST http://localhost:8000/api/longest-strings \
      -H "Content-Type: application/json" \
      -d '{ "inputArray": ["aba", "aa", "ad", "vcd", "aba"] }'
 ```
+
+### 6. Para executar os testes com PhpUnit utilize o comando abaixo:
+
+- Rota para testar todasStringsMaisLongas utilizando POSTMAN ou Similar com CURL:
+```bash
+php artisan test --filter=StringServiceTest
+```
